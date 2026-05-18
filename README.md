@@ -15,3 +15,9 @@ https://wiki.postmarketos.org/wiki/Blackview_Tab_15_Pro
 ```sh
 mkbootimg --header_version 4 --kernel vmlinuz --ramdisk initramfs --cmdline '' -o repacked_boot.img
 ```
+
+### change slot
+
+```
+fastboot --set-active=b
+```
