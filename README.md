@@ -21,3 +21,17 @@ mkbootimg --header_version 4 --kernel vmlinuz --ramdisk initramfs --cmdline '' -
 ```
 fastboot --set-active=b
 ```
+
+## Links
+
+### U-Boot
+
+https://github.com/akku1139/ums9230-mainline-u-boot
+
+### Linux
+
+https://github.com/akku1139/linux/tree/ums9230/blackview-tab15pro
+
+### uniLoader
+
+https://github.com/akku1139/uniLoader/tree/blackview-tab15pro
