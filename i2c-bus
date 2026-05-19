@@ -1,0 +1,94 @@
+/sys/class/i2c-adapter/i2c-0:
+total 0
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 0-0020
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 0-0021
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../200d0000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x200d0000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-1:
+total 0
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 1-0020
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../200e0000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x200e0000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-2:
+total 0
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 2-0027
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../200f0000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x200f0000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-3:
+total 0
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../20100000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x20100000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-4:
+total 0
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 4-0058
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 4-0059
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 4-005a
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 4-005b
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../20110000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x20110000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-5:
+total 0
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 5-0063
+drwxr-xr-x 6 root root    0 1970-01-01 09:00 5-006b
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../20210000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/ap-apb/i2c@0x20210000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
+
+/sys/class/i2c-adapter/i2c-7:
+total 0
+drwxr-xr-x 5 root root    0 1970-01-01 09:00 7-006b
+--w------- 1 root root 4096 2026-03-17 09:54 delete_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 device -> ../../641a0000.i2c
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 name
+--w------- 1 root root 4096 2026-03-17 09:54 new_device
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 of_node -> ../../../../../../firmware/devicetree/base/soc/aon/i2c@641A0000
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+lrwxrwxrwx 1 root root    0 2026-03-17 09:54 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:54 waiting_for_supplier
