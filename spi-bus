@@ -1,0 +1,83 @@
+/sys/class/spi_master/spi3/spi3.0:
+total 0
+lrwxrwxrwx 1 root root      0 2026-03-17 09:53 driver -> ../../../../../../../../bus/spi/drivers/fts_ts
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 driver_override
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_boot_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_charger_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_cover_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_driver_info
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_dump_reg
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_esd_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_force_upgrade
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_fw_version
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_gesture_bm
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_gesture_buf
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_gesture_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_glove_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_hw_reset
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_irq
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_log_level
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_pen
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_prc
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_rw_reg
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_ta_mode
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_touch_point
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_touch_size
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 fts_upgrade_bin
+drwxr-xr-x 3 root root      0 1970-01-01 09:00 input
+-r--r--r-- 1 root root   4096 2026-03-17 09:53 modalias
+lrwxrwxrwx 1 root root      0 2026-03-17 09:53 of_node -> ../../../../../../../../firmware/devicetree/base/soc/ap-apb/spi@20150000/focaltech_ts_spi@0
+drwxr-xr-x 2 root root      0 2026-03-17 09:53 power
+drwxr-xr-x 2 root root      0 2026-03-17 09:53 statistics
+lrwxrwxrwx 1 root root      0 2026-03-17 09:53 subsystem -> ../../../../../../../../bus/spi
+lrwxrwxrwx 1 root root      0 2026-03-17 09:53 supplier:641b0000.gpio -> ../../../../../../../virtual/devlink/641b0000.gpio--spi3.0
+-rw-rw-r-- 1 root system 4096 1970-01-01 09:00 ts_suspend
+-rw-r--r-- 1 root root   4096 2026-03-17 09:53 uevent
+
+/sys/class/spi_master/spi3/spi3.1:
+total 0
+-rw-r--r-- 1 root root 4096 2026-03-17 09:53 driver_override
+-r--r--r-- 1 root root 4096 2026-03-17 09:53 modalias
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 of_node -> ../../../../../../../../firmware/devicetree/base/soc/ap-apb/spi@20150000/himax_ts@1
+drwxr-xr-x 2 root root    0 2026-03-17 09:53 power
+drwxr-xr-x 2 root root    0 2026-03-17 09:53 statistics
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 subsystem -> ../../../../../../../../bus/spi
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 supplier:641b0000.gpio -> ../../../../../../../virtual/devlink/641b0000.gpio--spi3.1
+-rw-r--r-- 1 root root 4096 2026-03-17 09:53 uevent
+-r--r--r-- 1 root root 4096 2026-03-17 09:53 waiting_for_supplier
+
+/sys/class/spi_master/spi4/spi4.0:
+total 0
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:adc@504
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:audio-codec@1000
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:efuse@300
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:fchg@400
+drwxr-xr-x 5 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:fgu@c00
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:gpio@280
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:hw-reset@1bc0
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:led-controller@180
+drwxr-xr-x 6 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:pd@e00
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:power-controller@1800
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:poweroff@1820
+drwxr-xr-x 5 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:rtc@200
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:syscon@1800
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:tsensor@1b34
+drwxr-xr-x 5 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:typec@380
+drwxr-xr-x 4 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:vibrator@1b90
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 64200000.spi:pmic@0:watchdog@40
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:adc@504 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:adc@504
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:fchg@400 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:fchg@400
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:fgu@c00 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:fgu@c00
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:gpio@280 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:gpio@280
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:pd@e00 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:pd@e00
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:rtc@200 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:rtc@200
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 consumer:64200000.spi:pmic@0:typec@380 -> ../../../../../../../virtual/devlink/spi4.0--64200000.spi:pmic@0:typec@380
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 driver -> ../../../../../../../../bus/spi/drivers/sc27xx-pmic
+-rw-r--r-- 1 root root 4096 2026-03-17 09:53 driver_override
+-r--r--r-- 1 root root 4096 2026-03-17 09:53 modalias
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 of_node -> ../../../../../../../../firmware/devicetree/base/soc/aon/spi@64200000/pmic@0
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 power
+drwxr-xr-x 2 root root    0 1970-01-01 09:00 statistics
+lrwxrwxrwx 1 root root    0 2026-03-17 09:53 subsystem -> ../../../../../../../../bus/spi
+-rw-r--r-- 1 root root 4096 1970-01-01 09:00 uevent
+drwxr-xr-x 3 root root    0 1970-01-01 09:00 wakeup
