@@ -2,6 +2,14 @@
 
 Blackview Tab 15 Pro workdir
 
+## Status
+
+### Boot
+
+1. Stock U-Boot
+2. uniLoader
+3. Linux
+
 ## postmarketOS
 
 ### Wiki
