@@ -1,0 +1,71 @@
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="gpio-keys"
+P: Phys=gpio-keys/input0
+S: Sysfs=/devices/platform/gpio-keys/input/input47
+U: Uniq=
+H: Handlers=event0 sysdump 
+B: PROP=0
+B: EV=3
+B: KEY=1c000000000000 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sc27xx:vibrator"
+P: Phys=
+S: Sysfs=/devices/platform/soc/soc:aon/64200000.spi/spi_master/spi4/spi4.0/64200000.spi:pmic@0:vibrator@1b90/input/input48
+U: Uniq=
+H: Handlers=event1 
+B: PROP=0
+B: EV=200001
+B: FF=107030000 0
+
+I: Bus=001c Vendor=0000 Product=0000 Version=0000
+N: Name="madev"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input49
+U: Uniq=
+H: Handlers=event2 sysdump 
+B: PROP=0
+B: EV=3
+B: KEY=1fc0000 0 0 0 0 0 10000000000000 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="hall_input"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input50
+U: Uniq=
+H: Handlers=event3 sysdump 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
+
+I: Bus=001c Vendor=0000 Product=0000 Version=0000
+N: Name="fts_ts"
+P: Phys=
+S: Sysfs=/devices/platform/soc/soc:ap-apb/20150000.spi/spi_master/spi3/spi3.0/input/input51
+U: Uniq=
+H: Handlers=event4 sysdump 
+B: PROP=2
+B: EV=b
+B: KEY=400 0 0 0 10168000000000 4d04081460000
+B: ABS=661800000000000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sprdphone-sc2730 Headset Jack"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/sound@0/sound/card0/input52
+U: Uniq=
+H: Handlers=event5 
+B: PROP=0
+B: EV=21
+B: SW=14
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sprdphone-sc2730 Headset Keyboard"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/sound@0/sound/card0/input53
+U: Uniq=
+H: Handlers=event6 sysdump 
+B: PROP=0
+B: EV=3
+B: KEY=18 400000000 0 c000000000000 0
+
