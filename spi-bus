@@ -1,3 +1,11 @@
+# ls -l /sys/bus/spi/devices/
+total 0
+lrwxrwxrwx 1 root root 0 2026-03-17 09:58 spi3.0 -> ../../../devices/platform/soc/soc:ap-apb/20150000.spi/spi_master/spi3/spi3.0
+lrwxrwxrwx 1 root root 0 2026-03-17 09:58 spi3.1 -> ../../../devices/platform/soc/soc:ap-apb/20150000.spi/spi_master/spi3/spi3.1
+lrwxrwxrwx 1 root root 0 2026-03-17 09:58 spi4.0 -> ../../../devices/platform/soc/soc:aon/64200000.spi/spi_master/spi4/spi4.0
+
+==========
+
 /sys/class/spi_master/spi3/spi3.0:
 total 0
 lrwxrwxrwx 1 root root      0 2026-03-17 09:53 driver -> ../../../../../../../../bus/spi/drivers/fts_ts
