@@ -43,3 +43,7 @@ https://github.com/akku1139/linux/tree/ums9230/blackview-tab15pro
 ### uniLoader
 
 https://github.com/akku1139/uniLoader/tree/blackview-tab15pro
+
+## See also
+
+- https://github.com/faveoled/c35-mainline
