@@ -47,3 +47,4 @@ https://github.com/akku1139/uniLoader/tree/blackview-tab15pro
 ## See also
 
 - https://github.com/faveoled/c35-mainline
+- https://github.com/akku1139/android_device_blackview_tab15pro
