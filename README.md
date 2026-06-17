@@ -24,6 +24,12 @@ https://wiki.postmarketos.org/wiki/Blackview_Tab_15_Pro
 mkbootimg --header_version 4 --kernel vmlinuz --ramdisk initramfs --cmdline '' -o repacked_boot.img
 ```
 
+#### stock boot.img
+
+```
+--header_version 4 --os_version 12.0.0 --os_patch_level 2022-11 --kernel out/kernel --ramdisk out/ramdisk --cmdline ''
+```
+
 ### change slot
 
 ```
