@@ -30,6 +30,15 @@ mkbootimg --header_version 4 --kernel vmlinuz --ramdisk initramfs --cmdline '' -
 --header_version 4 --os_version 12.0.0 --os_patch_level 2022-11 --kernel out/kernel --ramdisk out/ramdisk --cmdline ''
 ```
 
+#### uniLoader
+
+```
+mkbootimg --header_version 4 --kernel uniLoader/uniLoader --ramdisk fake-initramfs.img --cmdline '' -o raw-boot.img --os_version 12.0.0 --os_patch_level 2022-11
+```
+(fake is not empty)
+
+https://matrix.to/#/!zPItXGRBhnWgQFZHIr:matrix.org/$ggguER-RLnXy7xIJFZCZEwT4GAgiFZRhPw5AgJydw-o?via=matrix.org&via=tchncs.de
+
 ### change slot
 
 ```
