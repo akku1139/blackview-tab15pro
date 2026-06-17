@@ -30,6 +30,11 @@ mkbootimg --header_version 4 --kernel vmlinuz --ramdisk initramfs --cmdline '' -
 fastboot --set-active=b
 ```
 
+### warnings
+
+- don't pack empty initramfs
+- don't erase vendor_boot
+
 ## Links
 
 ### U-Boot
